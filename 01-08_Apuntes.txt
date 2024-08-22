@@ -1,4 +1,11 @@
-"""Comentario creo Lenguaje de alto nivel, es mas sencillo, es como pseudocódigo en inglés. Es dinámico, no tengo que definir que tipo de variable su utiliza. Phyton tiene tipos de datos, solo se pueden cambiar. Es un lenguaje interpretado, no compilado. En c++ compilamos, en assembly tambien. Esto quiere decir que el archivo se procesa para generar un ejecutable, es una traducción al código de máquina y en ese proceso te corrige lo que está mal. En phyton se ejecuta línea por línea, recién salta el error en el momento en que se está ejecutando, por eso es interpretado. Se usa mucho para scripting, hacer una lista de pasos en vez que hacerlo yo de mientras programo otra cosa. Puede implementar cosas en c++.  Hay métodos, que es con un punto hacer una función. La agrupación se hace por indentación, no usa llaves. La variables en python no contienen los datos, sino que apuntan a los datos (es un puntero), por lo tanto cundo igualo, igualo punteros. Si modifico uno u otro, se modifican ambos.
+"""Comentario creo Lenguaje de alto nivel, es mas sencillo, es como pseudocódigo en inglés. Es dinámico, no tengo que definir que tipo de variable su utiliza. 
+Phyton tiene tipos de datos, solo se pueden cambiar. Es un lenguaje interpretado, no compilado. En c++ compilamos, en assembly tambien. 
+Esto quiere decir que el archivo se procesa para generar un ejecutable, es una traducción al código de máquina y en ese proceso te corrige lo que está mal.
+En phyton se ejecuta línea por línea, recién salta el error en el momento en que se está ejecutando, por eso es interpretado.
+Se usa mucho para scripting, hacer una lista de pasos en vez que hacerlo yo de mientras programo otra cosa. 
+Puede implementar cosas en c++.  Hay métodos, que es con un punto hacer una función. 
+La agrupación se hace por indentación, no usa llaves. La variables en python no contienen los datos, sino que apuntan a los datos (es un puntero), por lo tanto cundo igualo, igualo punteros.
+Si modifico uno u otro, se modifican ambos.
 
 Interpretes: Jupyter, Spyder, Anaconda.
 
