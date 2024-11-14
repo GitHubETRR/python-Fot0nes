@@ -4,7 +4,6 @@ import random
 pygame.init()
 window = pygame.display.set_mode((800, 600))
 pygame.display.set_caption('Chase the dot')
-clock = pygame.time.Clock()
 
 color_background = (255, 255, 255)
 color_circle = (255, 0, 0)
