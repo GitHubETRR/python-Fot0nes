@@ -8,7 +8,7 @@ pygame.display.set_caption('Chase the dot')
 color_background = (255, 255, 255)
 color_circle = (255, 0, 0)
 ratio_circle = 30
-position_circle = (random.randint(ratio_circle, 800-radio_circle), random.randint(ratio_circle, 600-ratio_circle))
+position_circle = (random.randint(ratio_circle, 800-ratio_circle), random.randint(ratio_circle, 600-ratio_circle))
 
 while True:
     for event in pygame.event.get():
