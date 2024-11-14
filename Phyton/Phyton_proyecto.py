@@ -8,8 +8,8 @@ clock = pygame.time.Clock()
 
 color_background = (255, 255, 255)
 color_circle = (255, 0, 0)
-radio_circle = 30
-position_circle = (random.randint(radio_circle, 800-radio_circle), random.randint(ratio_circle, 600-ratio_circle))
+ratio_circle = 30
+position_circle = (random.randint(ratio_circle, 800-radio_circle), random.randint(ratio_circle, 600-ratio_circle))
 
 while True:
     for event in pygame.event.get():
