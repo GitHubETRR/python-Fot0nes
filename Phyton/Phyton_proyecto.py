@@ -19,8 +19,7 @@ while True:
 
     mouse_x, mouse_y = pygame.mouse.get_pos()
     if (mouse_x - position_circle[0])**2 + (mouse_y - position_circle[1])**2 <= ratio_circle**2:
-        puntuacion += 1
-        posicion_circulo = (random.randint(ratio_circle, 800-ratio_circle), random.randint(ratio_circle, 600-ratio_circle))
+        position_circle = (random.randint(ratio_circle, 800-ratio_circle), random.randint(ratio_circle, 600-ratio_circle))
 
     window.fill(color_background)
     pygame.draw.circle(window, color_circle, position_circle, ratio_circle)
